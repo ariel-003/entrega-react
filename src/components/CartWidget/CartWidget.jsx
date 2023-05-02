@@ -1,13 +1,13 @@
-import cart from './assets/shopping-cart-line'
+import React from 'react'
+import cart from './assets/cart.svg'
 
-
-const CartWidget = () => {
+export const CartWidget = () => {
     return (
-        <div>
-            <img src={cart} alt="cart-widget"/>
-            0
+    <div className="cart">
+        <div className="cart--container">
+            <img src={cart} alt="cart icon" />
+            <p className="cart__counter">0 productos</p>
         </div>
+    </div>
     )
 }
-
-export default CartWidget

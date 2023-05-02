@@ -1,0 +1,14 @@
+.itemList--container {
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+    color: #191919;
+    font-size: 80px;
+    font-weight: 600;
+}
