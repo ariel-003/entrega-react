@@ -29,7 +29,23 @@ Utilicé las siguientes herramientas y tecnologías para levantar el sitio
 - [Yup](https://github.com/jquense/yup): Para generar un esquema de validacion de campos, para el formulario del checkout.
 
 ---
+### Usage
 
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/115516561/232940895-7ad35f5f-c96a-490d-bc6d-35f27cddc96a.gif"/>
+</h1>
+
+### Item detail
+
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/115516561/232938826-d29bbab5-b82a-4368-9e98-98fa5e994d68.gif"/>
+</h1>
+
+### Order confimation
+
+<h1 align="center">
+    <img src="https://user-images.githubusercontent.com/115516561/232939395-6f28b396-8275-4300-9323-e7d8d962ee44.gif"/>
+</h1>
 ## Getting started
 
 Clone the repository:
