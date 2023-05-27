@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, doc, getDoc, getDocs, query, where, addDoc } from 'firebase/firestore/lite';
 
 const config = {
-    apiKey: "AIzaSyD4fxTcOtzRBqsTo2OL4_TVA6-dxvfu-ms",
-    authDomain: "white-iron.firebaseapp.com",
-    projectId: "white-iron",
-    storageBucket: "white-iron.appspot.com",
-    messagingSenderId: "574347137315",
-    appId: "1:574347137315:web:79a6130e58c089f2963c96"
+    apiKey: "AIzaSyC84IM8TUTl5X44PI9VVUfhfOXYuUER7xw",
+    authDomain: "coderhouse-ecommerce-a485e.firebaseapp.com",
+    projectId: "coderhouse-ecommerce-a485e",
+    storageBucket: "coderhouse-ecommerce-a485e.appspot.com",
+    messagingSenderId: "975057588792",
+    appId: "1:975057588792:web:a1baa3d9671fd08919cccd"
 };
 
 const app = initializeApp(config);
