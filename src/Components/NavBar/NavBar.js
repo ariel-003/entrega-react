@@ -1,9 +1,9 @@
 import CartWidget from "../CartWidget/CartWidget";
 import { Link } from "react-router-dom";
-import { useCartContext } from "../../Contexts/CartContext";
+//import { useCartContext } from "../../Contexts/CartContext";
 
 function NavBar() {
-  
+
   
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
