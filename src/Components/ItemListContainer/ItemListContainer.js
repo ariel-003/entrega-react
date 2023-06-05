@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Products from "../Product/Product";
+import Products from "../Products/Products";
 import * as ProductsService from "../../Services/ProductsService";
 import Loader from "../Loader/Loader";
 

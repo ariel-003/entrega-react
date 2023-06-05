@@ -44,7 +44,7 @@ function Checkout() {
                   {cartProducts.map((p) => (
                     <div key={p.product.id} className="row ms-2 mb-3 border-bottom">
                       <div className="row main align-items-center">
-                        <div className="col-2"><img className="img-fluid" src={p.product.image_principal} alt="Producto"></img></div>
+                        <div className="col-2"><img className="img-fluid" src={p.product.image_principal}></img></div>
                         <div className="col-8">
                             <div className="row text-muted fw-bold">{p.product.title}</div>
                             <div className="row mt-3 text-nowrap">{p.product.description}</div>

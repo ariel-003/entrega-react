@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, doc, getDoc, getDocs, query, where, addDoc } from 'firebase/firestore/lite';
 
 const config = {
-    apiKey: "AIzaSyC84IM8TUTl5X44PI9VVUfhfOXYuUER7xw",
-    authDomain: "coderhouse-ecommerce-a485e.firebaseapp.com",
-    projectId: "coderhouse-ecommerce-a485e",
-    storageBucket: "coderhouse-ecommerce-a485e.appspot.com",
-    messagingSenderId: "975057588792",
-    appId: "1:975057588792:web:a1baa3d9671fd08919cccd"
+  apiKey: "AIzaSyC84IM8TUTl5X44PI9VVUfhfOXYuUER7xw",
+  authDomain: "coderhouse-ecommerce-a485e.firebaseapp.com",
+  projectId: "coderhouse-ecommerce-a485e",
+  storageBucket: "coderhouse-ecommerce-a485e.appspot.com",
+  messagingSenderId: "975057588792",
+  appId: "1:975057588792:web:a1baa3d9671fd08919cccd"
 };
 
 const app = initializeApp(config);
@@ -45,4 +45,4 @@ async function create(col, data) {
     return await get(col, newRef.id)
 }
 
-export { list, get, create }
+export { list, get, create };
