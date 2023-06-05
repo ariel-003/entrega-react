@@ -9,7 +9,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand mb-0 h1" href="/">
-          STRONG
+          White Iron
         </a>
         <button
           className="navbar-toggler"
